@@ -1,12 +1,15 @@
-import './App.css'
+import Buttons from "./components/firstQuestionButtons/towButtons";
+import MouseEnterCounter from "./components/firstQuestionButtons/mouseEntersTheDivArea";
+
+import "./App.css";
 
 function App() {
-
   return (
     <>
-      <div>hello !</div>
+      <Buttons />
+      <MouseEnterCounter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
